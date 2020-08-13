@@ -1,0 +1,18 @@
+.card__one {
+    flex: 0.5;
+    width: 370px;
+    margin-bottom: 5px;
+    padding: 0;
+    border: 200px;
+    white-space: nowrap;
+}
+
+.card-content__one {
+    padding: 20px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.p1 {
+    padding-right: 30px;
+}

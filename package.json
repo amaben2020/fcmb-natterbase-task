@@ -1,0 +1,42 @@
+{
+    "name": "react-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material/card": "^7.0.0",
+        "@material/react-card": "^0.15.0",
+        "dateformat": "^3.0.3",
+        "firebase": "^7.17.2",
+        "radium": "^0.26.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-redux": "^7.2.1",
+        "react-redux-firebase": "^3.7.0",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "1.1.5",
+        "redux": "^4.0.5",
+        "redux-firestore": "^0.13.0",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^5.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "precommit": "Lint-staged",
+        "lint": "eslint src"
+    },
+    "Lint-staged": {
+        "src/**/*,{js,jsx,json,css}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "prettier": "^2.0.5"
+    }
+}

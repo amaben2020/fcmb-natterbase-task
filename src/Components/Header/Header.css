@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+
+.txt1 {
+    white-space: nowrap;
+    font-size: large;
+    font-weight: 800 !important;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 320px;
+}
+
+.header__logo {
+    height: 35px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__inputButton {
+    width: 80 !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: gray;
+}
+
+.header__icon {
+    margin-right: 68px;
+}
